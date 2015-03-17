@@ -1,6 +1,8 @@
 # Primo-Guest-Sign-In-Bar
 Adds a sign-in bar with a link to encourage guest users to login for more results and service options
 
+## Installation
+
 Add the following JavaScript to your Primo header or footer template file or in a separate Javascript file that is referenced in your Primo header or footer template file.
 
 ```javascript
@@ -17,6 +19,6 @@ jQuery( document ).ready(function(jQuery) {
 
 ```
 
-# Configuration
+## Configuration
 
 set the login_link variable to the HTML you want to display for your sign-in bar.
