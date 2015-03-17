@@ -8,7 +8,7 @@ Add the following JavaScript to your Primo header or footer template file or in 
 ```javascript
 
 jQuery( document ).ready(function(jQuery) {
-	// Sign-in Alert Box for Guest Users
+	// Sign-in bar for Guest Users
 	var sign_in_bar_html = 'Current PSU affiliates <a href="javascript:jQuery( \'#login-lightbox\' ).dialog(\'open\'); void(0);" id="login_lightbox_link">sign in</a> to see additional results, library services, and request options.';
 	
 	var userName = $('#exlidUserAreaRibbon li.EXLUserName').text(); 
@@ -16,6 +16,14 @@ jQuery( document ).ready(function(jQuery) {
 	if (userName.trim() == "Guest" || userNameDisplay.trim().length <= 0 )
 		$( "#resultsTileNoId" ).prepend('<div id="exlidHeaderSystemFeedback" class="EXLCustomLayoutTile EXLSystemFeedback"><div id="exlidHeaderSystemFeedbackContent" class="EXLSystemFeedback"><strong style="text-align:left;">'+sign_in_bar_html+'</strong></div></div>');
 });
+
+```
+
+Or, link to the JavaScript file in your header or footer:
+
+```html
+
+<script src="//path_to_file/guest-sign-in-bar.js"></script>
 
 ```
 
