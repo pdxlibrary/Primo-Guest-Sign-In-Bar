@@ -19,7 +19,7 @@ jQuery( document ).ready(function(jQuery) {
 
 ```
 
-Or, link to the JavaScript file in your header or footer:
+Or link to the JavaScript file in your header or footer:
 
 ```html
 
