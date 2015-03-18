@@ -25,6 +25,7 @@ Or link to the JavaScript file in your header or footer:
 
 ```html
 
+<!-- Include File for Guest Sign-in Bar -->
 <script src="//path_to_file/guest-sign-in-bar.js"></script>
 
 ```
